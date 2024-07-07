@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0; }
+
+.div-all{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(255, 255, 255);
+}
+.logo-img{
+    width: 100px;
+    height: 60px;
+}
+.classForm{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1%;
+}
+.form{
+    padding-left: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(85, 85, 85, 0.658);
+    line-height: 170%;
+}
+.titulo{
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.sopraInput{
+    font-size: 11px;
+    margin-top: 5px;    
+    margin-left: 8px;
+}
+.inputStilo{
+    width: 290px;
+    margin-left: 8px;
+    height: 20px;
+}
+.grisTrasparente{
+    color: rgba(133, 131, 131, 0.774);
+    font-size: 11px;    
+    margin-left: 8px;
+}
+.span-celeste{
+    color: rgba(46, 109, 247, 0.87);  
+    font-weight: 200;
+}
+.span-celeste2{
+    color: rgba(46, 109, 247, 0.87); 
+    font-weight: 200;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+.rellenoFondo{    
+    margin-left: 8px;
+    font-weight: 200;
+}
+.botoncito{
+    width: 293px;
+    margin-left: 8px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,211,65);
+    background: linear-gradient(0deg, rgba(255,211,65,1) 0%, rgba(255,224,65,1) 73%, rgba(255,255,255,1) 100%);   
+    margin-top: 12px;
+    padding: 14px 14px 14px 14px ; 
+    cursor: pointer;      
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(85, 85, 85, 0.411);
+    border-radius: 3px;
+}
+.pieDePagina{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%
+}
+.enlacesPie{
+    display: flex;
+    width: 97%;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px) { 
+    
+ }
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
